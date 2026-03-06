@@ -1,8 +1,8 @@
 body {
     line-height: 1.4;
-    background-color: antiquewhite;
+    background-color: #fbddf1;
     font-family: 'Courier New', Courier, monospace;
-    color: #444;
+    color: #15173D;
     font-size: 16px;
 
     
@@ -10,7 +10,6 @@ body {
 
 .page-wrapper {
     
-
     max-width: 60%;
     margin: 0 auto;
 }
@@ -19,7 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgb(226, 80, 80) dotted 5px;
+    border: #8f1867 dotted 5px;
 }
 
 .main-nav {
@@ -105,11 +104,11 @@ body {
 }
 
 #socials .email-icon {
-    color: #EA4335;
+    color: #982598;
 }
 
 h1 {
-    color: rgb(226, 80, 80);
+    color: #982598;
     font-size: 50px;
 }
 
@@ -129,11 +128,12 @@ h2 {
 
 #title {
     margin-top: 0px;
+    color:#982598;
 }
 
 .experience {
-    background-color: #f7f4eb;
-    border: 1px solid hsl(0, 0%, 85%);
+    background-color: #efbede;
+    border: 1px solid hsl(300, 59%, 45%);
     border-radius: 5px;
     margin: 10px 5px 20px 5px;
 
@@ -146,5 +146,5 @@ h2 {
 }
 
 .emphasized-text {
-    color: rgb(226, 80, 80);
+    color: #982598;
 }
