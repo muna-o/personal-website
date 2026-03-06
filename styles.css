@@ -1,0 +1,96 @@
+body {
+    line-height: 1.4;
+    background-color: #EEEEEE;
+    font-family: 'Courier New', Courier, monospace;
+    color: #444;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(226, 80, 80) dotted 5px;
+}
+
+.main-nav {
+    display: flex;
+    flex: wrap;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.main-nav ul {
+    padding: 0.5em 1em;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+}
+
+.main-nav li a {
+    font-size: 25px;
+
+}
+
+#front-page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#front-page .left-side {
+    margin-right: 20px;
+}
+
+#front-page .right-side {
+    margin-left: 20px;
+}
+
+h1 {
+    color: rgb(226, 80, 80);
+    font-size: 50px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+#profile-pic {
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#title {
+    margin-top: 0px;
+}
+
+.experience {
+    background-color: antiquewhite;
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 5px;
+
+}
+
+.emphasized-text {
+    color: rgb(226, 80, 80);
+}
