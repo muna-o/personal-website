@@ -1,13 +1,18 @@
 body {
     line-height: 1.4;
-    background-color: #EEEEEE;
+    background-color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
     color: #444;
     font-size: 16px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+}
+
+.page-wrapper {
+    
+
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 #navigation-bar {
@@ -19,7 +24,7 @@ body {
 
 .main-nav {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     list-style: none;
     gap: 50px;
     align-items: center;
@@ -53,12 +58,54 @@ body {
 
 }
 
+#front-page h2 {
+    margin-top: 50px;
+}
+
 #front-page .left-side {
     margin-right: 20px;
 }
 
 #front-page .right-side {
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+#socials {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+
+#socials ul {
+    display: flex;
+    gap: 65px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#socials li{
+    list-style: none;
+    font-size: 25px;
+    
+}
+
+#socials a {
+    padding: 0;
+    margin: 0;
+    color: blue
+}
+
+#socials .github-icon {
+    color: black;
+}
+
+#socials .linkedin-icon {
+    color: #0A66C2;
+}
+
+#socials .email-icon {
+    color: #EA4335;
 }
 
 h1 {
@@ -85,10 +132,17 @@ h2 {
 }
 
 .experience {
-    background-color: antiquewhite;
+    background-color: #f7f4eb;
     border: 1px solid hsl(0, 0%, 85%);
     border-radius: 5px;
+    margin: 10px 5px 20px 5px;
 
+}
+
+.project {
+    background-color: #f7f4eb;
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius : 10px;
 }
 
 .emphasized-text {
