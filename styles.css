@@ -136,15 +136,55 @@ h2 {
     border: 1px solid hsl(300, 59%, 45%);
     border-radius: 5px;
     margin: 10px 5px 20px 5px;
+    padding: 10px;
 
+}
+
+.list-of-projects {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 15px;
 }
 
 .project {
     background-color: #efbede;
     border: 1px solid hsl(0, 0%, 85%);
     border-radius : 10px;
+    padding: 10px;
+    flex: 1;
 }
 
 .emphasized-text {
     color: #982598;
+}
+
+.skills-section {
+    margin-bottom: 25px;
+}
+.skills-section h3{
+    font-size: 20px;
+    
+}
+
+.list-of-skills {
+    display: flex;
+    gap: 40px;
+    justify-content: start
+}
+.list-of-skills li {
+
+    font-weight: bold;
+    flex-wrap: wrap;
+    background-color: #efbede;
+    border: 2px solid hsl(300, 59%, 45%);
+    border-radius: 10px;
+
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
